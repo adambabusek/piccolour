@@ -7,6 +7,8 @@ html,body { height: 100%; margin: 0px; padding: 0px; }
 
 .canvas-container {
   height: 100%;
+  background-color: #f9f9f9;
+  padding: 20px;
 }
 
 .panel-container{
@@ -19,4 +21,7 @@ html,body { height: 100%; margin: 0px; padding: 0px; }
 .title {
   text-align: center;
   color: #dd5c00;
+}
+
+#image-container {
 }
