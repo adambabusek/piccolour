@@ -27,8 +27,9 @@ function onFileSelected() {
 function onFileLoad() {
     var img = new Image();
     img.src = this.result;
+    buildImageInfo(img);
     img.onload = function() {
-        $("#image-container").append(createCanvasFromImage(img));
+        $("#image-container").append(createCanvas(img));
     };
 }
 
